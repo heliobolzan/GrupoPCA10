@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>PCA-Grupo Anonimos </title>
+    	<meta name="description" content="Agência especializada em Marketing Digital, Criação de Sites e Aplicativos Mobile.">
+    	<meta name="keywords" content="Agência digital, Marketing, Sites">
+    	<meta name="robots" content="index, follow">
+    	<meta name="author" content="Grupo Anonymous">      
+      
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+             	
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    	
+      <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/6e6c70339f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- CABEÇALHO --> 
+        <header class="cabecalho container">
+           <a href="index.html"  ><h1 class="logo"> PCA-Grupo Anonimos </h1></a>
+           <button class="btn-menu bg-gradientlaranja"><i class="fa fa-bars fa-lg"></i></button>
+           <nav class="menu">
+               <a class="btn-close"><i class="fa fa-times"></i></a>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="#">Serviços</a></li>
+                   <li><a href="#">Blog</a></li>
+                   <li><a href="#">Login</a></li>
+
+               </ul>
+           </nav>          
+        </header>
+        <!-- BANNER --> 
+        <div class="banner container">
+            <div class="title">
+                <h2> Cadastro de Usuários </h2>
+                <h3> Por favor, Preencha o formulario corretamente.</h3>
+                    
+            </div>
+            
+        </div>
+
+        <!-- SERVICOS --> 
+        <main class="servicos containerleft">
+          <form class="needs-validation" method="POST" action="#" enctype="multipart/form-data" novalidate>
+            <div class="row g-3 mb-6">
+              <div class="col-sm-6">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome" value="" required>
+                <div class="invalid-feedback">
+                  Campo obrigatório.
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <label for="sobrenome" class="form-label">Sobrenome</label>
+                <input type="text" class="form-control" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" value="" required>
+                <div class="invalid-feedback">
+                   Campo obrigatório.
+                </div>
+              </div>
+
+              <div class="col-6">
+                <label for="login" class="form-label">Login de acesso</label>
+                <div class="input-group has-validation">                
+                  <input type="text" class="form-control" name="login" id="login" placeholder="Usuário" required>
+                <div class="invalid-feedback">
+                     Campo obrigatório.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <label for="senha" class="form-label">Senha</label>
+                <div class="input-group has-validation">                
+                  <input type="password" class="form-control" name="senha" id="senha" placeholder="Digite sua senha" required>
+                <div class="invalid-feedback">
+                     Campo obrigatório.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <label for="whatsapp" class="form-label">Whatsapp</label>
+                <div class="input-group has-validation">                
+                  <input type="text" class="form-control" name="whatsapp" id="whatsapp" placeholder="Digite seu whatsapp" required>
+                <div class="invalid-feedback">
+                     Campo obrigatório.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <label for="telefone" class="form-label">Telefone <span class="text-muted">(Optional)</span></label>
+                <div class="input-group has-validation">                
+                  <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Digite seu telefone">
+                </div>
+              </div>
+
+              <div class="col-5">
+                <label for="email" class="form-label">Email <span class="text-muted"></span></label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="email@exemplo.com.br" required="">
+                <div class="invalid-feedback">
+                  Por favor digite um e-mail válido.
+                </div>
+              </div>
+
+              <div class="col-4">
+                <label for="cpf" class="form-label">CPF <span class="text-muted"></span></label>
+                <input type="text" class="form-control" name="cpf" id="cpf" placeholder="Digite seu CPF" required="">
+                <div class="invalid-feedback">
+                  Campo obrigatório.
+                </div>
+              </div>
+
+              <div class="col-3">
+                <label for="nascimento" class="form-label">Nascimento<span class="text-muted"></span></label>
+                <input type="date" class="form-control" name="nascimento" id="nascimento" placeholder="00/00/2021" required="">
+                <div class="invalid-feedback">
+                  Campo obrigatório.
+                </div>
+              </div>
+
+              <div class="col-5">
+                <label for="endereco" class="form-label">Endereço</label>
+                <input type="text" class="form-control" name="endereco" id="endereco" placeholder="Rua exemplo" required>
+                <div class="invalid-feedback">
+                   Campo obrigatório.
+                </div>
+              </div>
+
+              <div class="col-2">
+                <label for="numero" class="form-label">Numero</label>
+                <input type="text" class="form-control" name="numero" id="numero" placeholder="Nº" required>
+                <div class="invalid-feedback">
+                   Campo obrigatório.
+                </div>
+              </div>
+
+              <div class="col-5">
+                <label for="complemento" class="form-label">Complemento<span class="text-muted">(Optional)</span></label>
+                <input type="text" class="form-control" name="complemento" id="complemento" placeholder="Bl, Ap, Lj, Fundos, etc" >
+                <div class="invalid-feedback">
+                   Campo obrigatório.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="referencia" class="form-label">Ponto de Referência<span class="text-muted">(Optional)</span></label>
+                <input type="text" class="form-control" name="referencia" id="referencia" placeholder="Digite um ponto de referência do local">
+              </div>
+
+              <div class="col-md-5">
+                <label for="bairro" class="form-label">Bairro</label>
+                <input type="text" class="form-control" name="bairro" id="bairro" placeholder="Digite seu bairro" required>
+                <div class="invalid-feedback">
+                  Campo obrigatório.
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <label for="estado" class="form-label">Estado</label>
+                <select class="form-select" name="estado" id="estado" required>
+                  <option value="">Selecionar estado...</option>
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+                </select>
+                <div class="invalid-feedback">
+                  Por favor, selecione o seu estado.
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <label for="cep" class="form-label">CEP</label>
+                <input type="text" class="form-control" name="cep" id="cep" placeholder="Digite seu CEP" required>
+                <div class="invalid-feedback">
+                   Este campo é obrigatório.
+                </div>
+              </div>
+
+              <button  type="submit" name="cadastrar" id="cadastrar">CADASTRAR</button>
+            </div>
+          </form>
+            
+        </main>
+        
+        <!-- RODAPÉ -->
+        <footer class="rodape container bg-gradientlaranja">
+          <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+          </div>
+          <p class="copyright">
+            Copyright © Grupo Anonimos 2021. Todos os direitos reservados.
+        </footer>          
+        
+        <!-- JQUERY --> 
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+        $(".btn-menu").click(function(){
+          $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+          $(".menu").hide();
+        });
+        </script> 
+
+        <!-- Biblioteca JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- Máscara Biblioteca JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+        <!-- Máscara dos Campos do Formulário -->
+    <script type="text/javascript">
+      $(document).ready(function (){
+          $("#cpf").mask("000.000.000-00");
+          $("#whatsapp").mask("(00)000000000");
+          $("#telefone").mask("(00)000000000");
+          $("#numero").mask("0000000");
+          $("#cep").mask("00.000-000");
+
+      })
+    </script>     
+    </body>
+</html>
